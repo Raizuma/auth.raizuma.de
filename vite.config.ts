@@ -6,8 +6,8 @@ import mkcert from "vite-plugin-mkcert"
 
 const serverConfig: CommonServerOptions = {
     https: true,
-    host: "0.0.0.01",
-    port: 3001,
+    host: "auth.raizuma.local",
+    port: 3000,
     strictPort: true,
     proxy: {}
 }
